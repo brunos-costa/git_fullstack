@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seletores css</title>
+    <style>
+        body{font-family: helvetica;background-color:forestgreen;}
+        section{width: 400px;}
+        h1{text-align: center;}
+        .bloco1 p{color:blue;font-size:20px;}
+        .bloco1 > p{text-decoration: underline;color: darkblue;text-transform: capitalize;text-align: center;}
+        .bloco1{border-width:10px;border-color: cornflowerblue;border-style: solid;}
+         .bloco2{border-width: 10px;border-color:gold;border-style:solid}
+         .bloco2>p{color: chartreuse;} 
+         .bloco2+p{text-transform: uppercase;color: mediumblue;border:5px solid yellow;}
+         .bloco2 > p:nth-child(1){color: olive;text-align: end;}
+
+    </style>
+</head>
+<body>
+    <h1>seletores css</h1>
+    <section class="bloco1">
+        <p>irineu voce não sabe nem eu</p>
+        <p>curso tecncico</p>
+        <p>aquele curso</p>
+        <article>
+            <p>tag para article</p>
+        </article>
+    </section>
+    <section class="bloco2">
+        <p>curso tecnco</p>
+        <p>e te jooj</p>
+        <div>
+            <p>os melhores joojs</p>
+        </div>
+    </section>
+    <p>paragrafo após o bloco 2</p>
+    <p>2º paragrafo após ao bloco 2</p>
+    
+</body>
+</html>
