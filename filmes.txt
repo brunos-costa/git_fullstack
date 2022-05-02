@@ -4,5 +4,9 @@ Woody Allen - Crimes e Pecados(1989)
 Tim Burton - Os Fantasmas se Divertem (1988)
 Fernando Meirelles - Cidade de Deus(2002)
 Kleber Mendonça Filho - O Som Ao Redor(2012)
+<<<<<<< HEAD
 adélia sampaio - amor maldito(1984)
 augusto irineu - você não sabe nem eu(2016)
+=======
+Greta Gerwig - Adoráveis Mulheres (2019)
+>>>>>>> 4585b912ff57b5223f515a1332e752afe6478a7e
